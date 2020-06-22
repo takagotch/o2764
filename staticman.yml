@@ -52,13 +52,13 @@ comments:
   moderation: true
 
   # Akismet spam detection.
-  # akismet:
-  #   enabled: true
-  #   author: "name"
-  #   authorEmail: "email"
-  #   authorUrl: "url"
-  #   content: "message"
-  #   type: "comment"
+  akismet:
+    enabled: true
+    author: "tkgcci"
+    authorEmail: "tkgcci@gmail.com"
+    authorUrl: "https://takagotch.github.io/"
+    content: "message"
+    type: "comment"
 
   # Name of the site. Used in notification emails.
   # name: "Your Site"
@@ -66,9 +66,9 @@ comments:
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  # notifications:
+  notifications:
     # Enable notifications
-    # enabled: true
+    enabled: true
 
     # (!) ENCRYPTED
     #
